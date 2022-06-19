@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg-geral {
+  background-color: #765641;
+}
+
+.text-color {
+  color: #FFC971;
+}
+
+.image-container {
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+
+.divider-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.image-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border: 4px solid #765641;
+}

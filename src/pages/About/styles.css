@@ -1,0 +1,38 @@
+.barist-image-container {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+.barist-image-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border: 4px solid #A2947E;
+  margin-bottom: 10px;
+}
+
+.list-style {
+  list-style: none;
+}
+
+.description-button {
+  width: 400px;
+  padding: 10px;
+  background-color: #573A3A;
+  border: 4px solid #A2947E;
+  color: white;
+  letter-spacing: 6px;
+  transition: all 0.3s;
+}
+
+.description-button:hover {
+  background-color: white;
+  color: black;
+  letter-spacing: 1px;
+}
